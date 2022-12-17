@@ -1,0 +1,90 @@
+<html>
+<body bgcolor="aliceblue" class="j">
+    <h1 align="center">Welcome to the quiz</h1>
+<h2 align ="center">What is full form of CSS?</h2>
+<div align="center" class='J'>
+<button align="center"id="wrans1" class="wrans1">curative style sheets</button>
+<button align="center" id="wrans2" class="wrans2">counsil showoff sheets </button><br><br>
+<button align="center" id="corans" class="fit">cascading style sheets </button>
+<button align="center" id="wrans3" class="wrans3">cricket standard sheets </button></div>
+<h2 align ="center">Which type of langauge is HTML?</h2>
+<div align="center" class='J'>
+<button align="center"id="corans2" class="fit2" onclick="j()">Markup language</button>
+<button align="center" id="wrans22" class="wrans22">Programming language </button><br><br>
+<button align="center" id="wrans33" class="wrans33">logical language </button>
+<button align="center" id="wrans44" class="wrans44">functioning langauge </button></div>
+
+
+<style>
+    button{font-size:30px;border-radius:112px;}
+    .wbg{background-color:red;}
+    .bg{background-color: green;}
+</style>
+<script>
+    corans.addEventListener('click',function(){
+        var x=document.getElementsByClassName("fit");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    })
+    wrans1.addEventListener('click',function(){
+        var x2=document.getElementsByClassName("wrans1");
+        x2[0].classList.add("wbg");
+        x2[0].innerText="Wrong";
+        var x=document.getElementsByClassName("fit");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+        
+    })
+    wrans2.addEventListener('click',function(){
+        var x2=document.getElementsByClassName("wrans2");
+        x2[0].classList.add("wbg");
+        x2[0].innerText="Wrong";
+        var x=document.getElementsByClassName("fit");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    })
+    wrans3.addEventListener('click',function(){
+        var x2=document.getElementsByClassName("wrans3");
+        x2[0].classList.add("wbg");
+        x2[0].innerText="Wrong";
+        var x=document.getElementsByClassName("fit");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    
+    })
+    wrans22.addEventListener('click',function(){
+        var x22=document.getElementsByClassName("wrans22");
+        x22[0].classList.add("wbg");
+        x22[0].innerText="wrong"
+        var x=document.getElementsByClassName("fit2");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    })
+    wrans33.addEventListener('click',function(){
+        var x33=document.getElementsByClassName("wrans33");
+        x33[0].classList.add("wbg");
+        x33[0].innerText="wrong"
+        var x=document.getElementsByClassName("fit2");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    })
+    wrans44.addEventListener('click',function(){
+        var x44=document.getElementsByClassName("wrans44");
+        x44[0].classList.add("wbg");
+        x44[0].innerText="wrong"
+        var x=document.getElementsByClassName("fit2");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+    })
+function j(){
+        var x=document.getElementsByClassName("fit2");
+        x[0].classList.add("bg");
+        x[0].innerText="Correct";
+        
+    }
+
+    
+    
+</script>
+</body>
+</html>
